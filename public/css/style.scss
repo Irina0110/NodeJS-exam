@@ -1,0 +1,148 @@
+$green: #628B51;
+$lightGreen: #97ba88;
+.top,
+.home-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  #home-title, h3{
+    box-shadow: 1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+    background-color: $green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  p{
+    text-align: center;
+    margin-top: 15px;
+  }
+  a{
+    border: 1px solid $green;
+    background-color: $lightGreen;
+    color: white;
+  }
+  a, p{
+    font-weight: 500;
+  }
+}
+.home-footer, .icons{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  i{
+    margin-right: 5px;
+    color: $green;
+  }
+}
+.icons{
+  flex-direction: row;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  box-shadow: 1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+  background-color: $green;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  nav{
+    a{
+      color: white !important;
+    }
+    .navbar-brand{
+      font-weight: 600;
+      font-size: 25px;
+    }
+  }
+}
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  form{
+    width: 50%;
+    input, input:active{
+      box-shadow: 1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+      height: 35px;
+      box-sizing: border-box;
+      border: none;
+      background-color: rgba(151, 186, 136, 0.5) !important;
+      outline: none;
+      width: 100%;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+    input:focus, input:hover{
+      box-sizing: border-box;
+      border-bottom: 2px solid $green;
+    }
+    button{
+      margin-top: 5px;
+      border: 1px solid $green;
+      background-color: $lightGreen;
+      color: white;
+    }
+    button:hover{
+      background-color: $green;
+    }
+  }
+}
+.index-table{
+  h2{
+    margin-bottom: 15px;
+  }
+  ul{
+    list-style-type: none;
+    li > a {
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+    }
+    li > a:hover{
+      border-bottom: 1px solid black;
+    }
+  }
+}
+.form{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#new-entry, .form-btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid $green;
+  background-color: $lightGreen;
+  color: white;
+  text-decoration: none;
+}
+#new-entry:hover, .form-btn:hover{
+  background-color: $green;
+}
+.page, .index-table{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
